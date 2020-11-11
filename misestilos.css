@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:100%;
 }
 
 .titulo{
@@ -8,12 +9,29 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
 .menu{
     padding: 20px;
+    text-align: center;
     background-color: #F0B429;
     width: 100%;
+    margin: 40px auto;
+    text-decoration: none;
+    font: bold 16px;
+    padding: 12px 20px 12px 20px;
+    border-bottom:9px solid transparent;
+    transition:border-bottom .7s;
+    -webkit-transition: border-bottom .7s;
+    --transition: border-bottom .7s;
+    transition: border-bottom .7s;
 }
 
+.banner{
+align-content: center;
+}
+
+
+}
 .tabla{
     width: 80%;
     margin: 40pt;
