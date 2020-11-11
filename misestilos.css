@@ -26,6 +26,31 @@ body{
     transition: border-bottom .7s;
 }
 
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS3 a {
+    display: block;
+    padding: 2em;
+    background-color: #F0B429;
+    text-decoration: none;
+    color: #191C26;
+    padding: 20px 80px 20px 30px;
+}
+.menuCSS3 a:hover {
+    background-color: #CC673B;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+}
+
 .banner{
 align-content: center;
 }
